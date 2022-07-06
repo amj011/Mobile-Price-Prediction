@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div.background {
+            background: url(klematis.jpg) repeat;
+            border: 2px solid black;
+        }
+
+        div.transbox {
+            margin: 60px;
+            background-color: #ffffff;
+            border: 1px solid black;
+            opacity: 0.9;
+        }
+
+        div.transbox p {
+            margin: 5%;
+            font-weight: bold;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body style="background-color: gray;">
+
+    <header class="text-gray-800 bg-gray-800 body-font">
+        <div class="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
+            <nav>
+                <a class="hover:text-white" href="/" style="color: white;size: 95px;"><b>Home</b></a>
+                <a class="hover:text-white" style="color: white;size: 95px; padding-left: 25px;"
+                    href="/index"><b>Predict Price</b></a>
+
+            </nav>
+
+    </header>
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                style="background-image: url('https://media.istockphoto.com/photos/aerial-view-of-crowd-connected-by-lines-picture-id1180187740?s=612x612');">
+
+            </div>
+            <div class="background"
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <div class="transbox">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+                        style="align-items: center;">Readme
+                        <br class="hidden lg:inline-block">Predict The Mobile Price
+                    </h1>
+                    <p style="font-size: 1.5vw ; color: rgba(62, 62, 63, 0.984);" class="mb-8 leading-relaxed">In the
+                        competitive mobile phone market companies want to understand sales data of mobile phones and
+                        factors which drive the prices. The objective is to find out some relation between features of a
+                        mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not
+                        have to predict the actual price but a price range indicating how high the price
+                        is.<br><br>Parameters to understand: <br>1]Battery_power - Total energy a battery can store in one time measured in mAh.<br>
+                        2]Bluetooth - Has bluetooth or not.<br>
+                        3]Clock speed - speed at which microprocessor executes instructions.<br>
+                        4]Dual sim - Has dual sim support or not.<br>
+                        5]Front cam - Front Camera mega pixels.<br>
+                        6]Four_g - Has 4G or not.<br>
+                        7]Int_memory - Internal Memory in Gigabytes.<br>
+                        8]Mobile Depth - Mobile Depth in cm.<br>
+                        9]Mobile_wt - Weight of mobile phone.<br>
+                        10]cores - Number of cores of processor.<br>
+                        11]Primary Cam - Primary Camera mega pixels.<br>
+                        12]Px_height - Pixel Resolution Height.<br>
+                        13]Px_width - Pixel Resolution Width.<br>
+                        14]Ram - Random Access Memory in Mega Bytes.<br>
+                        15]Sc_h - Screen Height of mobile in cm.<br>
+                        16]Sc_w - Screen Width of mobile in cm.<br>
+                        17]Talk_time - longest time that a single battery charge will last when you are.<br>
+                        18]Three_g - Has 3G or not.<br>
+                        19]Touch_screen - Has touch screen or not.<br>
+                        20]Wifi - Has wifi or not.<br>
+                        
+                        <br> Go by entering appropriate parameters in the 'Predict Price' tab. Click on Predict the
+                        selling price button, You will get the range with which you can have that perticular featured
+                        mobile.<br>
+                        <br> <b>Author:</b> Aniruddha Joshi
+                        <br> <b>Guide</b>: Amruta Mankawde
+                    </p>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
